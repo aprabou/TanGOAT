@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Tango Solver",
+  "version": "1.0",
+  "description": "Automatically solve Tango puzzles on LinkedIn Games",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.linkedin.com/games/tango*",
+        "*://linkedin.com/games/tango*",
+        "*://www.linkedin.com/games/*",
+        "*://linkedin.com/games/*"
+      ],
+      "js": ["solver.js", "content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "LinkedIn Tango Solver"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
