@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "LinkedIn Tango Solver",
+  "name": "TanGOAT",
   "version": "1.0",
-  "description": "Automatically solve Tango puzzles on LinkedIn Games",
+  "description": "LinkedIn Games' Tango solver. Solve within seconds.",
   "permissions": [
     "activeTab",
     "scripting"
@@ -22,7 +22,7 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "LinkedIn Tango Solver"
+    "default_title": "TanGOAT"
   },
   "icons": {
     "16": "icons/icon16.png",
