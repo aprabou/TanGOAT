@@ -4,12 +4,8 @@ A Chrome extension that automatically solves Tango puzzles on LinkedIn Games usi
 
 ## Installation
 
-### Step 1: Generate Icons
-1. Open `create_icons.html` in your browser
-2. Right-click on each canvas and save as PNG:
-   - Save the first canvas as `icons/icon16.png`
-   - Save the second canvas as `icons/icon48.png`
-   - Save the third canvas as `icons/icon128.png`
+### Step 1: Give TanGOAT a Star
+Or skip to Step 2
 
 ### Step 2: Load Extension in Chrome
 1. Open Chrome and navigate to `chrome://extensions/`
