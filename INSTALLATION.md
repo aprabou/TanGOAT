@@ -4,14 +4,14 @@ A Chrome extension that automatically solves Tango puzzles on LinkedIn Games usi
 
 ## Installation
 
-### Step 1: Give TanGOAT a Star
-Or skip to Step 2
+### Step 1: Clone | Download ZIP & Give TanGOAT a Star
+That second part is mandatory btw or it wont work (real)
 
 ### Step 2: Load Extension in Chrome
 1. Open Chrome and navigate to `chrome://extensions/`
 2. Enable "Developer mode" (toggle in top-right corner)
 3. Click "Load unpacked"
-4. Select the `tango-cheat` folder containing the extension files
+4. Select the `TanGOAT` folder containing the extension files
 5. The extension should now appear in your extensions list
 
 ## Usage

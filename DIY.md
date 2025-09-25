@@ -578,7 +578,7 @@ observeGameChanges() {
 
 ### File Structure
 ```
-tango-cheat/
+TanGOAT/
 ├── manifest.json          # Extension configuration
 ├── popup.html             # Extension popup UI
 ├── popup.js               # Popup interaction logic
