@@ -37,6 +37,7 @@ class TangoSolver {
 
     async initialize() {
         // Wait for board to appear
+        // 100ms polling interval w/ 5-second max wait to prevent race conditions
         let board = null;
         const startTime = Date.now();
         while (Date.now() - startTime < 5000) {
